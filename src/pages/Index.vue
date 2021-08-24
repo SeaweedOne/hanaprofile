@@ -9,7 +9,7 @@
           <q-tabs v-model="selected_tab" shrink>
             <q-tab name="about_me" :style="[selected_tab == 'about_me' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_about_me')" style="width:120px;min-height:auto !important;color: white"
-                   label="About Me 실제 표현부분"/>
+                   label="About Me 실제 표현부"/>
             <q-tab name="works" :style="[selected_tab == 'works' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_projects')" style="width:120px;min-height:auto !important;color: white"
                    label="Works"/>
@@ -29,15 +29,15 @@
         <div class="full-height full-width flex flex-center text-center"
            style="background-color: rgba(0, 0, 0, 0.68) !important;z-index:0;height: 100vh !important;">
         <div class="">
+        <div style="!important;" class="text-h6 q-mt-md text-grey-5">
+          HANA KIM
+        </div>
           <div class="text-h6 text-grey-5">WELCOME TO MY PAGE</div>
           <div class="text-h2 text-white q-py-sm q-my-md"
                style="border-top:3px solid #1595de;border-bottom: 3px solid #2faa64;">HELLO I'M HANA.
           </div>
           <div class="text-h6" style="color: #f4b825;">
-            S/W DEVELOPER | FULL STACK ENGINEER | PROFESSOR
-          </div>
-          <div style="color: #1495de !important;" class="text-h4 q-mt-md text-grey-2 my-font">
-            Wayne Hwang
+            STILL STUDENT | KOPO | HADOOP
           </div>
         </div>
       </div>
@@ -52,9 +52,9 @@
           </div>
           <div style="background-color: rgba(0, 0, 0, 0.68) !important;">
             <div style="background-color: rgba(0, 0, 0, 0.68) !important;">
-              <q-img style="height:300px"
+              <q-img style="height:900px"
                      class="col-5"
-                     src="/statics/images/my_2.jpg"
+                     src="/statics/images/sol.jpg"
               />
             </div>
           </div>
@@ -63,27 +63,19 @@
           <div class="text-h4 text-center text-white q-py-xs q-my-xs"
                style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">HELLO
           </div>
-          <h5 class="q-my-none text-caption" style="color: #20ffff;">
-            2017.06 ~ Current : Korea Polytechnic College Professor<br>
-            - dept. of Smart Finance : blockchain & IT tech
+          <h5 class="q-my-none text-caption" style="color: white;">
+            1992.09.24 : 출생
             <br>
             <br>
-            2011.03 ~ 2017.05.26 Principal Engineer, Samsung SDS<br>
-            - Participated in Several BPM(Business Process Management) Projects<br>
-            - Developing Interface Module (SAP, SharePoint, ESB)<br>
-            - Project Leader, EFSS(Enterprise File Sync & Share) Development Team<br>
-            (https://www.youtube.com/watch?v=Wy6xK1D-Icg)<br>
-            - Strategic Planning at Samsung Global Strategy & Operations (GSO, '14.1 ~ '15.8)
+            2021.03.01 : KOPO 입학<br>
+            - Python 학습<br>
+            - Java 학습<br>
+            - NodeJs 학습<br>
+            - Linux 학습<br>
+            - Hadoop 학습<br>
+            - DataBase 학습<br>
             <br>
-            <br>
-            2007.3 ~ 2008.12 Research Engineer, Precision Guided Munition R&D Center, LIG Nex1<br>
-            - Developing Mission Critical Land-To-Air Missile Defense System<br>
-            (https://www.youtube.com/watch?v=yP_ST_CaLlA)
-            <br>
-            <br>
-            2004.3 ~ 2007.2 Research Engineer, Java Team, Mobile Communication R&D Lab, LG Electronics<br>
-            - Porting Java Virtual Machine to Mobile Platforms(TI condat, Infineon apoxi)<br>
-            - Performance Tuning and Country Adaptation of GSM mobile phones
+
           </h5>
         </div>
       </div>
@@ -97,23 +89,21 @@
           <q-card class="my-card" flat bordered>
             <q-card-section>
               <q-ribbon class="github-text" position="top-right" type="corner" color="white" background-color="#eb4f71">
-                <a href="https://github.com/wonyongHwang/KopoBlockchain" target="_blank">FORK ME ON GITHUB!</a>
+                <a href="https://github.com/SeaweedOne/Hadoop" target="_blank">깃허브 바로가기</a>
               </q-ribbon>
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                   <q-card-section class="q-py-xs">
-                    <div class="text-overline text-pink">2020 GitHub Archive Program</div>
+                    <div class="text-overline text-black">2021 GitHub Archive Program</div>
                     <div class="text-h5 q-mt-sm q-mb-xs">
                       <a class="project_link" style="text-decoration: none;color: #eb4f71;"
-                         href="https://github.com/wonyongHwang/KopoBlockchain" target="_blank">Kopo BlockChain</a>
+                         href="https://github.com/SeaweedOne/Hadoop" target="_blank">Hadoop</a>
                     </div>
                     <div class="text-caption text-grey-9">
-                      Python Blockchain Implementation for educational purposes
-                      (Dept. of Smart Finance of Korea Polytechnics)
                       <ul>
-                        <li>REST Interface impl. with Python Socket</li>
-                        <li>Transaction validation</li>
-                        <li>Hashing data and Mining Block</li>
+                        <li>Hadoop 설치</li>
+                        <li>Spark ETL 모듈 개발</li>
+                        <li>Jupyter Lab 기반에서의 Pyspark </li>
                         <li>Broadcating Block to certain Nodes</li>
                         <li>Compare and Merge Blocks</li>
                       </ul>
@@ -126,7 +116,7 @@
                       href="google.com"
                       class="rounded-borders"
                       style="border:1px solid darkgrey"
-                      src="/statics/images/blockchain.png"
+                      src="/statics/images/hadoop.jpg"
                     />
                   </q-card-section>
                 </div>
@@ -136,11 +126,10 @@
             <q-separator/>
 
             <q-card-actions class="block">
-              <a style="font-size: 25px;" class="q-py-sm q-pl-sm" href="https://www.slideshare.net/SuJeongShim/blockchain-implementation-by-python"
-                 target="_blank" title="SlideShare"><i class="fab fa-slideshare" style="color: #eb5daa"></i></a>
+
               <div class="float-right q-py-sm">
                 <iframe class="float-right"
-                        src="https://ghbtns.com/github-btn.html?user=wonyongHwang&repo=KopoBlockchain&type=fork&count=true&size=large"
+                        src="https://ghbtns.com/github-btn.html?user=SeaweedOne&repo=Hadoop&type=fork&count=true&size=large"
                         frameborder="0" scrolling="0" width="136" height="30" title="GitHub"></iframe>
               </div>
             </q-card-actions>
@@ -152,26 +141,24 @@
           <q-card class="my-card" flat bordered>
             <q-card-section>
               <q-ribbon class="github-text" position="top-right" type="corner" color="white" background-color="#eb4f71">
-                <a href="https://www.youtube.com/channel/UCEiSIPhofgNfzacBdMpkARg" target="_blank">SUBSCRIBE ME</a>
+                <a href="hhttps://github.com/SeaweedOne/BaekJoon" target="_blank">깃허브 바로가기</a>
               </q-ribbon>
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                   <q-card-section class="q-py-xs">
-                    <div class="text-overline text-pink">IT Lecture</div>
+                    <div class="text-overline text-black">Algorithm</div>
                     <div class="text-h5 q-mt-sm q-mb-xs">
                       <a class="project_link" style="text-decoration: none;color: #eb4f71;"
-                         href="https://www.youtube.com/channel/UCEiSIPhofgNfzacBdMpkARg" target="_blank">Online Tutorial Clip</a>
+                         href="hhttps://github.com/SeaweedOne/BaekJoon" target="_blank">Algorithm Study</a>
                     </div>
                     <div class="text-caption text-grey-9">
-                      Youtube Channel - IT Lecture for Students
+                    SILVER 5
 
                       <ul>
-                        <li>Algorithm</li>
-                        <li>HyperLedger Fabric 2.0</li>
-                        <li>iPhone App Develomnet w/ Firebase</li>
-                        <li>Docker and Kubernetes</li>
-                        <li>Kafka, ShardingSphere, Redis...</li>
-                        <li>Stock Forecasting</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>BaekJoon</li>
+
                       </ul>
                     </div>
                   </q-card-section>
@@ -181,7 +168,17 @@
                     <q-img
                       class="rounded-borders"
                       style="border:1px solid darkgrey"
-                      src="/statics/images/youtube.png"
+                      src="/statics/images/rank1.png"
+                    />
+                    <q-img
+                      class="rounded-borders"
+                      style="border:1px solid darkgrey"
+                      src="/statics/images/rank2.png"
+                    />
+                    <q-img
+                      class="rounded-borders"
+                      style="border:1px solid darkgrey"
+                      src="/statics/images/rank3.png"
                     />
                   </q-card-section>
                 </div>
@@ -191,8 +188,11 @@
             <q-separator/>
 
             <q-card-actions class="block">
-              <a style="font-size: 25px;" class="q-py-sm q-pl-sm" href="https://www.youtube.com/channel/UCEiSIPhofgNfzacBdMpkARg"
-                 target="_blank" title="Donate"><i class="fab fa-youtube" style="color: #eb5daa"></i></a>
+            <div class="float-right q-py-sm">
+              <iframe class="float-right"
+                      src="https://ghbtns.com/github-btn.html?user=SeaweedOne&repo=BaekJoon&type=fork&count=true&size=large"
+                      frameborder="0" scrolling="0" width="136" height="30" title="GitHub"></iframe>
+            </div>
 
             </q-card-actions>
           </q-card>
@@ -440,7 +440,7 @@
 <style>
   .main {
 
-    background: url(/statics/images/my_1.jpg) no-repeat center center fixed;
+    background: url(/statics/images/hong.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
