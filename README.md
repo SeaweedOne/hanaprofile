@@ -36,30 +36,7 @@ quasar dev
 ```bash
 quasar build
 ```
-## Screens UI
-**Home**
-<p float="left">
-	<kbd>
-<img src="assets/homepage.png" border="1" alt="Home"
-	title="Home"  />
-		</kbd>
-</p>
 
-**Projects**
-<p float="left">
-	<kbd>
-<img src="assets/works.png" border="1" alt="Works"
-	title="Portfolio"  />
-	</kbd>
-</p>
-
-**Sketches**
-<p float="left">
-	<kbd>
-<img src="assets/photo.png" border="1" alt="Photos"
-	title="Pricing"  />
-	</kbd>
-</p>
 
 
 ### Customize the configuration
