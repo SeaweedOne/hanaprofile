@@ -1,13 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9bd88d59-5c7b-4ec7-a59c-21c2bf52adb4/deploy-status)](https://app.netlify.com/sites/kopo/deploys)
 
-# Kopo Profile
+# hana Profile
 
 * Vue.js Practice repo for educational purpose.
 * And it will be used by korea polytechnics college students in their front-end class.
 * This repo is forked from https://github.com/mayank091193/mayank-profile.
 
 
-## Site: [https://kopo.netlify.app/#/](https://kopo.netlify.app/#/)
+## Site: [https://hanaprofile.netlify.app/](https://hanaprofile.netlify.app/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
@@ -18,12 +18,12 @@
 
 * **Clone the repository**
 ```
-git clone https://github.com/wonyongHwang/kopoProfile.git
+git clone https://github.com/SeaweedOne/hanaprofile.git
 ```
 
 ## Install the dependencies
 ```bash
-cd kopoProfile
+cd hanarofile
 npm install
 ```
 
