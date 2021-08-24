@@ -41,7 +41,7 @@
       </section>
     </div>
 
-    <div style="background-color:#33495e" id="id_about_me">
+    <div style="background-color:#000000" id="id_about_me">
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
           <div style="background-color:#black" class="q-pa-md text-center text-white text-weight-bolder text-h4">
@@ -102,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div style="background-color:#2b5873" id="id_projects">
+    <div style="background-color:#000000" id="id_projects">
       <div class="row q-px-xl">
         <div class="text-h4 text-center text-white q-py-sm q-my-md full-width"
              style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">MY Works
@@ -229,7 +229,7 @@
 
 
     <section id="id_photo">
-      <div style="background-color:#206b73;z-index:0;" class="content">
+      <div style="background-color:#000000;z-index:0;" class="content">
         <div class="row row q-px-xl">
           <div class="text-h4 text-center text-white q-py-sm q-my-md full-width"
                style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">Kopo Life
