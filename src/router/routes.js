@@ -4,6 +4,17 @@ const routes = [
     path: '/',
     component: () => import('pages/Index.vue')
   }
+/*
+  ,
+  {
+    path: '/address',
+    component: () => import('pages/adress.vue')
+  },
+  {
+    path: '/phone',
+    component: () => import('pages/phone.vue')
+  }
+  */
 ]
 
 // Always leave this as last one

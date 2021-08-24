@@ -9,16 +9,13 @@
           <q-tabs v-model="selected_tab" shrink>
             <q-tab name="about_me" :style="[selected_tab == 'about_me' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_about_me')" style="width:120px;min-height:auto !important;color: white"
-                   label="About Me 실제 표현부"/>
+                   label="About Me"/>
             <q-tab name="works" :style="[selected_tab == 'works' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_projects')" style="width:120px;min-height:auto !important;color: white"
                    label="Works"/>
-            <q-tab name="pubs" :style="[selected_tab == 'pubs' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
-                   @click="scrollToElement('id_publications')" style="width:120px;min-height:auto !important;color: white"
-                   label="Publications"/>
             <q-tab name="photo" :style="[selected_tab == 'photo' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_photo')" style="width:120px;min-height:auto !important;color: white"
-                   label="Photo"/>
+                   label="KOPO Life"/>
             <q-tab name="contact" :style="[selected_tab == 'contact' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_contact_me')"
                    style="width:120px;min-height:auto !important;color: white" label="Contact Me"/>
@@ -47,8 +44,8 @@
     <div style="background-color:#33495e" id="id_about_me">
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-          <div style="background-color:#ea4946" class="q-pa-md text-center text-white text-weight-bolder text-h4">
-            ABOUT ME
+          <div style="background-color:#black" class="q-pa-md text-center text-white text-weight-bolder text-h4">
+            ABOUT HANA
           </div>
           <div style="background-color: rgba(0, 0, 0, 0.68) !important;">
             <div style="background-color: rgba(0, 0, 0, 0.68) !important;">
@@ -64,10 +61,14 @@
                style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">HELLO
           </div>
           <h5 class="q-my-none text-caption" style="color: white;">
-            1992.09.24 : 출생
+            김하나 (Hana Kim)
             <br>
             <br>
-            2021.03.01 : KOPO 입학<br>
+            1992.09.24 서울 출생
+            <br>
+            <br>
+            2021.03.01  KOPO 입학<br>
+            <br>
             - Python 학습<br>
             - Java 학습<br>
             - NodeJs 학습<br>
@@ -75,6 +76,27 @@
             - Hadoop 학습<br>
             - DataBase 학습<br>
             <br>
+            하나에 대해 더 알아보기
+            <br>
+
+            <q-btn target="_blank" style="border: 2px solid green;" round type="a"
+                   href="https://www.instagram.com/hana_x.x_"
+                   glossy
+                   icon="fab fa-instagram"/>
+
+                   <q-btn target="_blank" style="border: 2px solid green" round type="a"
+                          href="https://github.com/SeaweedOne"
+                          glossy
+                          icon="fab fa-github"/>
+                   <q-btn style="border: 2px solid green" round type="a" href="mailto:seaweed_one@naver.com"
+                          glossy
+                          icon="email"/>
+                    <q-btn style="border: 2px solid green" round type="a" href="/phone"
+                            glossy
+                            icon="phone"/>
+                    <q-btn style="border: 2px solid green" round type="a" href="/address"
+                            glossy
+                            icon="home"/>
 
           </h5>
         </div>
@@ -198,134 +220,43 @@
           </q-card>
 
         </div>
-        <div class="col-md-12 col-md-12 col-xs-12 col-sm-12 q-mb-xl flex flex-center">
-          <q-card class="my-card" flat bordered>
-            <q-card-section>
-              <q-ribbon class="github-text" position="top-right" type="corner" color="white" background-color="#eb4f71">
-                <a href="https://github.com/wonyongHwang/kopoStockModel" target="_blank">FORK ME ON
-                  GITHUB!</a>
-              </q-ribbon>
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                  <q-card-section class="q-py-xs">
-                    <div class="text-overline text-pink">Smart Finance</div>
-                    <div class="text-h5 q-mt-sm q-mb-xs">
-                      <a class="project_link" style="text-decoration: none;color: #eb4f71;"
-                         href="https://github.com/wonyongHwang/kopoStockModel" target="_blank">Kopo Stock Model</a>
-                    </div>
-                    <div class="text-caption text-grey-9">
-                      Forecasting stock price based on various finance statistics.
-                      Lots of code is produced by students while using some external python libraries like FinanceReader, Selenium.
-                      <ul>
-                        <li>matplotlib, pandas, numpy, scipy</li>
-                        <li>finance-datareader</li>
-                        <li>beautifulsoup4</li>
-                        <li>mplfinance</li>
-                        <li>chart-studio</li>
-                        <li>plotly</li>
 
-                      </ul>
-                    </div>
-                  </q-card-section>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                  <q-card-section class="col-5 flex flex-center">
-                    <q-img
-                      class="rounded-borders"
-                      style="border:1px solid darkgrey"
-                      src="/statics/images/kopostock.png"
-                    />
-                  </q-card-section>
-                </div>
-              </div>
-            </q-card-section>
-
-            <q-separator/>
-
-            <q-card-actions class="block">
-              <div class="float-right q-py-sm">
-                <iframe class="float-right"
-                        src="https://ghbtns.com/github-btn.html?user=wonyongHwang&repo=kopoStockModel&type=fork&count=true&size=large"
-                        frameborder="0" scrolling="0" width="136" height="30" title="GitHub"></iframe>
-              </div>
             </q-card-actions>
           </q-card>
         </div>
       </div>
     </div>
 
-    <div style="background-color:#14104e" id="id_publications">
-      <div class="row row q-px-xl">
-        <div class="text-h4 text-center text-white q-py-sm q-my-md full-width"
-             style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">Current Publications
-        </div>
-        <div class="col-md-12 col-md-12 col-xs-12 col-sm-12 q-mb-xl flex flex-center">
-          <q-card class="my-card" flat bordered>
-            <q-card-section class="q-py-xs">
-              <div class="text-overline text-pink">Current Publications</div>
 
-                <div class="text-h5 q-mt-sm q-mb-xs">
-                  <div style="text-decoration: none;color: #eb4f71;">Application Development Using BlockChain</div>
-                </div>
-                <div class="text-caption text-grey-9">
-                  Dec 10, 2019 Korea Polytechnics college<br>
-                  <br>
-                  - learn the characteristics of blockchain architecture through bitcoin<br>
-                  - ethereum and its application development<br>
-                  ISBN : 978-89-6440-531-4 (13500)<br>
-                </div>
-
-                <div class="text-h5 q-mt-sm q-mb-xs">
-                  <div style="text-decoration: none;color: #eb4f71;">Development of Industrial Electronic Hardware</div>
-                </div>
-                <div class="text-caption text-grey-9">
-                  Dec 31, 2018 Korea Research Institute for Vocational Education & Training (KRIVET)<br>
-                  ISBN : 979-11-339-6977-7 (95560), 979-11-339-6976-0 (95560), 979-11-339-6979-1 (95560), 979-11-339-6975-3 (95560),<br>
-                   979-11-339-6978-4 (95560) <br><br>
-                </div>
-
-                <div class="text-h5 q-mt-sm q-mb-xs">
-                  <div style="text-decoration: none;color: #eb4f71;">A Study on Implementation of BlockChain Voting System using Hyperledger Fabric</div>
-                </div>
-                <div class="text-caption text-grey-9">
-                  Journal of Korea institute of information, electronics, and communication technology v.13 no.4 , 2020, pp.298 - 305<br>
-                  <br>
-                  This paper deals with the implementation of electronic voting system using permissioned block chain technology.<br>
-                  Cases studies have recently been under way in many industrial areas to review the application of the blockchain<br>
-                  based electronic voting system. The existing electronic voting system was easily exposed by hacking because of<br>
-                  its centralized characteristics, making it difficult to ensure the reliability and transparency of the voting<br>
-                  system itself. In this study, we proposed key considerations and concepts to ensure the reliability and<br>
-                  transparency of voters and voting stakeholder by utilizing a hyperledger fabric which is nowadays widely<br>
-                   used as a permissioned blockchain.
-                   <br><br>
-
-                   and more ...
-                </div>
-
-            </q-card-section>
-          </q-card>
-        </div>
-      </div>
-    </div>
     <section id="id_photo">
       <div style="background-color:#206b73;z-index:0;" class="content">
         <div class="row row q-px-xl">
           <div class="text-h4 text-center text-white q-py-sm q-my-md full-width"
-               style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">Photo
+               style="border-top:3px solid #bdbdbd;border-bottom: 3px solid #bdbdbd;">Kopo Life
           </div>
           <div class="col-md-12 col-md-12 col-xs-12 col-sm-12 q-mb-xl">
             <div class="q-pa-md">
               <div class="q-col-gutter-md row">
                 <div class="col-md-6 col-md-6 col-xs-12 col-sm-12 text-center flex flex-center">
                   <q-img
-                    src="statics/images/pic1.png"
+                    src="statics/images/kopoLife3.jpg"
                     v-bind:class="{'sketch_desktop': $q.platform.is.desktop, 'sketch_mobile': $q.platform.is.ipad || $q.platform.is.mobile}"
                   >
                   </q-img>
                 </div>
 
                 <div class="col-md-6 col-md-6 col-xs-12 col-sm-12 text-center flex flex-center">
-                  <q-img src="statics/images/pic2.png"
+                  <q-img src="statics/images/kopoLife1.jpg"
+                         v-bind:class="{'sketch_desktop': $q.platform.is.desktop, 'sketch_mobile': $q.platform.is.ipad || $q.platform.is.mobile}">
+                  </q-img>
+                </div>
+                <div class="col-md-6 col-md-6 col-xs-12 col-sm-12 text-center flex flex-center">
+                  <q-img src="statics/images/kopoLife5.jpg"
+                         v-bind:class="{'sketch_desktop': $q.platform.is.desktop, 'sketch_mobile': $q.platform.is.ipad || $q.platform.is.mobile}">
+                  </q-img>
+                </div>
+                <div class="col-md-6 col-md-6 col-xs-12 col-sm-12 text-center flex flex-center">
+                  <q-img src="statics/images/kopoLife6.jpg"
                          v-bind:class="{'sketch_desktop': $q.platform.is.desktop, 'sketch_mobile': $q.platform.is.ipad || $q.platform.is.mobile}">
                   </q-img>
                 </div>
@@ -375,24 +306,17 @@
     <q-toolbar class="flex flex-center text-white" style="background-color: #1c1b21;border-top: 2px solid green"
                id="id_contact_me">
       <div class="q-pa-sm q-gutter-sm">
-        <q-btn target="_blank" style="border: 2px solid green" round type="a" href="https://twitter.com/dreamonpanda"
-               glossy
-               icon="fab fa-twitter"/>
         <q-btn target="_blank" style="border: 2px solid green" round type="a"
-               href="https://github.com/wonyongHwang"
+               href="https://github.com/SeaweedOne"
                glossy
                icon="fab fa-github"/>
-        <q-btn style="border: 2px solid green" round type="a" href="mailto:wonyong@wonyong.net"
+        <q-btn style="border: 2px solid green" round type="a" href="mailto:seaweed_one@naver.com"
                glossy
                icon="email"/>
         <q-btn target="_blank" style="border: 2px solid green;" round type="a"
-               href="https://www.facebook.com/wonyong.hwang"
+               href="https://www.instagram.com/hana_x.x_"
                glossy
-               icon="fab fa-facebook"/>
-        <q-btn target="_blank" style="border: 2px solid green;" round type="a"
-               href="https://www.linkedin.com/in/justino/"
-               glossy
-               icon="fab fa-linkedin"/>
+               icon="fab fa-instagram"/>
       </div>
     </q-toolbar>
   </q-layout>
