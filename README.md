@@ -2,7 +2,7 @@
 
 # Kopo Profile
 
-* Vue.js Practice repo for educational purpose. 
+* Vue.js Practice repo for educational purpose.
 * And it will be used by korea polytechnics college students in their front-end class.
 * This repo is forked from https://github.com/mayank091193/mayank-profile.
 
@@ -28,7 +28,7 @@ npm install
 ```
 
 
-### Start the app in development mode 
+### Start the app in development mode
 ```bash
 quasar dev
 ```
@@ -50,7 +50,7 @@ quasar build
 <p float="left">
 	<kbd>
 <img src="assets/works.png" border="1" alt="Works"
-	title="Portfolio"  />	
+	title="Portfolio"  />
 	</kbd>
 </p>
 

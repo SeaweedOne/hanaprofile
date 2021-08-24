@@ -9,7 +9,7 @@
           <q-tabs v-model="selected_tab" shrink>
             <q-tab name="about_me" :style="[selected_tab == 'about_me' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_about_me')" style="width:120px;min-height:auto !important;color: white"
-                   label="About Me"/>
+                   label="About Me 실제 표현부분"/>
             <q-tab name="works" :style="[selected_tab == 'works' ? {backgroundColor: 'green'} : {}]" class="q-mr-sm q-py-xs custom_tab"
                    @click="scrollToElement('id_projects')" style="width:120px;min-height:auto !important;color: white"
                    label="Works"/>
@@ -31,7 +31,7 @@
         <div class="">
           <div class="text-h6 text-grey-5">WELCOME TO MY PAGE</div>
           <div class="text-h2 text-white q-py-sm q-my-md"
-               style="border-top:3px solid #1595de;border-bottom: 3px solid #2faa64;">I'M a FULL-STACK DEVELOPER.
+               style="border-top:3px solid #1595de;border-bottom: 3px solid #2faa64;">HELLO I'M HANA.
           </div>
           <div class="text-h6" style="color: #f4b825;">
             S/W DEVELOPER | FULL STACK ENGINEER | PROFESSOR
@@ -108,7 +108,7 @@
                          href="https://github.com/wonyongHwang/KopoBlockchain" target="_blank">Kopo BlockChain</a>
                     </div>
                     <div class="text-caption text-grey-9">
-                      Python Blockchain Implementation for educational purposes  
+                      Python Blockchain Implementation for educational purposes
                       (Dept. of Smart Finance of Korea Polytechnics)
                       <ul>
                         <li>REST Interface impl. with Python Socket</li>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="text-caption text-grey-9">
                       Youtube Channel - IT Lecture for Students
-                      
+
                       <ul>
                         <li>Algorithm</li>
                         <li>HyperLedger Fabric 2.0</li>
@@ -193,7 +193,7 @@
             <q-card-actions class="block">
               <a style="font-size: 25px;" class="q-py-sm q-pl-sm" href="https://www.youtube.com/channel/UCEiSIPhofgNfzacBdMpkARg"
                  target="_blank" title="Donate"><i class="fab fa-youtube" style="color: #eb5daa"></i></a>
-              
+
             </q-card-actions>
           </q-card>
 
@@ -298,7 +298,7 @@
                   transparency of voters and voting stakeholder by utilizing a hyperledger fabric which is nowadays widely<br>
                    used as a permissioned blockchain.
                    <br><br>
-                   
+
                    and more ...
                 </div>
 
@@ -323,7 +323,7 @@
                   >
                   </q-img>
                 </div>
-              
+
                 <div class="col-md-6 col-md-6 col-xs-12 col-sm-12 text-center flex flex-center">
                   <q-img src="statics/images/pic2.png"
                          v-bind:class="{'sketch_desktop': $q.platform.is.desktop, 'sketch_mobile': $q.platform.is.ipad || $q.platform.is.mobile}">
@@ -478,7 +478,7 @@
   .sketch_desktop {
     width: 100%;
     height: 100%;
-    display:block; 
+    display:block;
     margin:auto;
     border: 5px solid #30313b;
   }
