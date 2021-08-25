@@ -163,7 +163,7 @@
           <q-card class="my-card" flat bordered>
             <q-card-section>
               <q-ribbon class="github-text" position="top-right" type="corner" color="white" background-color="#eb4f71">
-                <a href="hhttps://github.com/SeaweedOne/BaekJoon" target="_blank">깃허브 바로가기</a>
+                <a href="https://github.com/SeaweedOne/BaekJoon" target="_blank">깃허브 바로가기</a>
               </q-ribbon>
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
@@ -270,7 +270,7 @@
     <div id="contact_us">
       <div style="background-color: rgba(0, 0, 0, 0.68) !important;">
         <form
-          action="https://formspree.io/f/mayabrvw"
+          action="https://formspree.io/f/hana"
           method="POST"
         >
           <div class="row text-center flex flex-center q-py-lg">
