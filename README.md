@@ -6,7 +6,7 @@
 * This repo is forked from https://github.com/mayank091193/mayank-profile.
 
 
-## Site: [https://hanaprofile.netlify.app/](https://hanaprofile.netlify.app/)
+## Site: [https://hanatest.netlify.app/#/](https://hanatest.netlify.app/#/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
